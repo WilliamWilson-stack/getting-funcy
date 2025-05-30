@@ -1,7 +1,70 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let  a = 5;
+let b = 10;
+let c = 0;
+let william = "john";
+let wilson = "doe";
+let trafficLight = "red";
+let williamwilson = "john doe"
+// functions
+ function addition()
+{
+  c = a + b;
+}
+function subtraction(){
+  c = a - b;
+}
 
+function multiplication() {
+  c = a * b;
+}
+
+function division() {
+  c = a / b;
+}
+
+function incrementA() {
+  a++;
+}
+
+function decrementB() {
+  b--;
+}
+
+function fullName() {
+  name = "williamwilson";
+}
+
+function lightChange() {
+  trafficLight = "green";
+}
+
+// console add ins:
+addition();
+console.log("c after addition:", c); // Output: 15
+
+subtraction();
+console.log("c after subtraction:", c); // Output: -5
+
+multiplication();
+console.log("c after multiplication:", c); // Output: 50
+
+division();
+console.log("c after division:", c); // Output: 0.5
+
+incrementA();
+console.log("a after increment:", a); // Output: 6
+
+decrementB();
+console.log("b after decrement:", b); // Output: 9
+
+fullName();
+console.log("name after fullName:", name); // Output: john doe
+
+lightChange();
+console.log("trafficLight after lightChange:", trafficLight); // Output: green
 
 
 
